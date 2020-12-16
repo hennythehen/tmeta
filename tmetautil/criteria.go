@@ -18,6 +18,8 @@ const (
 	GteOp  Op = ">="
 	LikeOp Op = "like"
 	InOp   Op = "in"
+	IsOp   Op = "is"
+	IsnOp  Op = "is not"
 )
 
 // Criterion is an individual expression that has a field, an op(erator) and a value.
